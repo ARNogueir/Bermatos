@@ -2,11 +2,129 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/bermatos/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/bermatos/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/bermatos/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/bermatos/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/facade/ignition-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/facade/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/facade/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/http-client-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/fideloper/proxy" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/fruitcake/laravel-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/bermatos/vendor/graham-campbell/result-type" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="bootstrap" level="application" />
   </component>
 </module>
