@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Bem vindo a Bermatos!</title>
+    <title>Contacte-nos</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <!-- Styles -->
     <style>
         /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -20,10 +19,12 @@
         }
 
         body {
-            margin: 0;
-            padding:0;
+            margin: 0
         }
 
+        a {
+            background-color: transparent
+        }
 
         [hidden] {
             display: none
@@ -147,89 +148,78 @@
             -moz-osx-font-smoothing: grayscale
         }
 
-        .w-5 {
-            width: 1.25rem
+        .my-form {
+            color: #305896;
         }
 
-        @media (min-width: 640px) {
-
-            .sm\:items-center {
-                align-items: center
-            }
-
-            .sm\:justify-start {
-                justify-content: flex-start
-            }
-
-            .sm\:justify-between {
-                justify-content: space-between
-            }
-
-            .sm\:px-6 {
-                padding-left: 1.5rem;
-                padding-right: 1.5rem
-            }
-
-            .sm\:pt-0 {
-                padding-top: 0
-            }
-
-            .sm\:text-left {
-                text-align: left
-            }
-
+        .my-form .btn-default {
+            background-color: #305896;
+            color: #fff;
+            border-radius: 0;
         }
 
-        @media (min-width: 1024px) {
-            .lg\:px-8 {
-                padding-left: 2rem;
-                padding-right: 2rem
-            }
+        .my-form .btn-default:hover {
+            background-color: #4498C6;
+            color: #fff;
         }
 
-        @media (prefers-color-scheme: dark) {
-
-            .dark\:bg-gray-900 {
-                --bg-opacity: 1;
-                background-color: #1a202c;
-                background-color: rgba(26, 32, 44, var(--bg-opacity))
-            }
-        }
-
-        #navbarSupportedContent.collapse.navbar-collapse {
-            color: white;
+        .my-form .form-control {
+            border-radius: 0;
         }
 
         body {
             font-family: 'Nunito', sans-serif;
-            padding:0;
         }
 
     </style>
 
 </head>
 <body class="antialiased">
-<div>
-
-    @extends('Components.header')
-</div>
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="item">
-            <img src="{{url('/head_img.png')}}" style="width:100%;height: 100%"
-                 alt="casa do código">
+<div class="container">
+    <div><h1>Contact Us</h1></div>
+    <br/>
+    <div class="row">
+        <div class="col-md-6">
+            <div id="googlemap" style="width:100%; height:350px;"></div>
+        </div>
+        <br/>
+        <div class="col-md-6">
+            <form class="my-form">
+                <div class="form-group">
+                    <label for="form-name">Nome</label>
+                    <input type="email" class="form-control" id="form-name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="form-email">Email</label>
+                    <input type="email" class="form-control" id="form-email" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <label for="form-subject">Telefone</label>
+                    <input type="text" class="form-control" id="form-subject" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <label for="form-message">Mensagem</label>
+                    <textarea class="form-control" id="form-message" placeholder="Message"></textarea>
+                </div>
+                <button class="btn btn-default" type="submit">Contacte-nos</button>
+            </form>
         </div>
     </div>
-    <div>
-        <a class="left carousel-control" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-</div>@extends('Components.footer')
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript">
+    jQuery(function ($) {
+        // Google Maps setup
+        var googlemap = new google.maps.Map(
+            document.getElementById('googlemap'),
+            {
+                center: new google.maps.LatLng(44.5403, -78.5463),
+                zoom: 8,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+        );
+    });
+</script>
 </body>
 </html>

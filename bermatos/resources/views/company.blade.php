@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Bem vindo a Bermatos!</title>
+    <title>Bermatos</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <!-- Styles -->
     <style>
         /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -20,10 +19,12 @@
         }
 
         body {
-            margin: 0;
-            padding:0;
+            margin: 0
         }
 
+        a {
+            background-color: transparent
+        }
 
         [hidden] {
             display: none
@@ -202,34 +203,15 @@
 
         body {
             font-family: 'Nunito', sans-serif;
-            padding:0;
         }
 
     </style>
 
 </head>
 <body class="antialiased">
-<div>
 
-    @extends('Components.header')
-</div>
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="item">
-            <img src="{{url('/head_img.png')}}" style="width:100%;height: 100%"
-                 alt="casa do código">
-        </div>
-    </div>
-    <div>
-        <a class="left carousel-control" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-</div>@extends('Components.footer')
+@extends('Components.header')
+
+@extends('Components.footer')
 </body>
 </html>
