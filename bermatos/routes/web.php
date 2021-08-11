@@ -19,3 +19,12 @@ Route::get('/', function () {
 Route::get('/contactos', function () {
     return view('contactos');
 });
+Route::get('/usados', function () {
+    return view('used');
+});
+Route::get('/contactos', function () {
+    return view('contactos');
+});
+Route::get('/empresa', function () {
+    return view('company');
+});

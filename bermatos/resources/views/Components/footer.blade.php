@@ -1,91 +1,39 @@
-<!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted ">
-    <!-- Section: Social media -->
-    <section
-        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-    >
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ asset('css/index/index.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-        <div>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-google"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
-        <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
+    <title>Projeto LABPROG</title>
 
-    <!-- Section: Links  -->
-    <section class="">
-        <div class="container text-center text-md-start mt-5">
-            <!-- Grid row -->
-            <div class="row mt-3">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                    <!-- Content -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        <i class="fas fa-gem me-3"></i>Bermatos
-                    </h6>
-                    <p>
-                        Comércio de automóveis usados e serviço de oficina.
-                    </p>
-                </div>
-                <!-- Grid column -->
+    <style>
+        .footer {
+            margin-top: 100px;
+        }
 
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <p>
-                        <a href="#!" class="text-reset">Empresa</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Usados</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Serviços</a>
-                    </p>
-                </div>
+        .float-end {
+            text-align: center;
+        }
 
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Contactos
-                    </h6>
+    </style>
 
-
-                    <p><i class="fas fa-home me-3"></i> Av. São Salvador 1162<br>4415-943 Seixezelo Grijó</p>
-                    <p>
-                        <i class="fas fa-envelope me-3"></i>
-                        bermatos@sapo.pt
-                    </p>
-                    <p><i class="fas fa-phone me-3"></i>227 447 175</p>
-                </div>
-                <!-- Grid column -->
-            </div>
-            <!-- Grid row -->
-        </div>
-    </section>
-    <!-- Section: Links  -->
+</head>
+<footer class="footer">
 
     <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(100, 100, 0, 0.05);">
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://arnogueira.com/">ARNogueira</a>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+
+        Bermatos © 2021 | Powered by
+        <a class="text-white" href="https://arnogueira.com/">ARNogueira</a>
     </div>
-    <!-- Copyright -->
-</footer>
 
+</footer>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
