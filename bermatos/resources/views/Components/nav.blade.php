@@ -1,6 +1,6 @@
 <link href="{{ URL::asset('css/nav.css') }}" rel="stylesheet">
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-custom navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid ">
         <img id="img_logo" src="{{asset('images/logo_.jpg')}}" alt="logo">
         <a class="navbar-brand">Bermatos - Comércio e reparação automóvel</a>
