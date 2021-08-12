@@ -1,5 +1,5 @@
 @include('components.head')
-<body>
+<body style="background-color: rgba(0, 0, 0, 0.2);">
 <header>
     <!DOCTYPE html>
     <link href="{{ URL::asset('css/welcome.css') }}" rel="stylesheet">
@@ -8,7 +8,6 @@
 <main>
 @include('Components.nav')
 @include('Components.slider')
-
 
 <!-- Section: Text -->
     <div class="container p-4">

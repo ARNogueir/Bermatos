@@ -18,18 +18,13 @@
         .footer {
             margin-top: 100px;
         }
-
-        .float-end {
-            text-align: center;
-        }
-
     </style>
 
 </head>
-<footer class="footer">
+<footer class="footer" >
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <div class="text-center p-3 fixed-bottom bg-dark ">
 
         Bermatos © 2021 | Powered by
         <a class="text-white" href="https://arnogueira.com/">ARNogueira</a>
