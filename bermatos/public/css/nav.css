@@ -3,7 +3,34 @@
     margin-left: 20px;
 }
 
-.navbar-expand-md{
+.navbar-expand-md {
     color: yellow;
 
+}
+
+.ber {
+    color: #dd5035;
+    font-style: italic;
+
+}
+
+.matos {
+    color: #3e59b1;
+    font-style: italic;
+}
+
+.sobre {
+    color: white;
+}
+
+.usados {
+    color: white;
+}
+
+.services {
+    color: white;
+}
+
+.contactos {
+    color: white;
 }

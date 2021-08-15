@@ -26,8 +26,8 @@
     <!-- Copyright -->
     <div class="text-center p-3 fixed-bottom bg-dark ">
 
-        Bermatos © 2021 | Powered by
-        <a class="text-white" href="https://arnogueira.com/">ARNogueira</a>
+        <span class="ber">BER</span><span class="matos">MATOS</span>
+        <a class="text-white" href="https://arnogueira.com/"> © 2021 | Powered by ARNogueira</a>
     </div>
 
 </footer>

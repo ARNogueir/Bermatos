@@ -20,7 +20,7 @@
             forma a fidelizá-lo à empresa e à marca que representamos.<br>
 
             A prossecução deste objectivo assentou no princípio de que Um cliente satisfeito é o nosso melhor cartão de
-            visita e um membro preponderante da família Honda; um lema que adotamos como filosofia de atuação.
+            visita, um lema que adotamos como filosofia de atuação.
 
             Ao longo dos anos, muitas pessoas deram-nos o privilégio de se tornarem nossas clientes, em virtude desta
             nossa linha de conduta. Desde sempre encetamos uma caminhada de aposta na atualização e de forte
