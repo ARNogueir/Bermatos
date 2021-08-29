@@ -1,36 +1,41 @@
-.navbar-brand {
+@media only screen and (max-width: 600px) {
+    .navbar {
+        margin-left: -16px;
+        margin-right: -16px;
+        margin-bottom: 100px;
 
-    margin-left: 20px;
+    }
+
+    .ber {
+        color: #dd5035;
+        font-style: italic;
+        font-size: 30px;
+    }
+    .matos {
+        color: yellow;
+        font-style: italic;
+        font-size: 30px;
+    }
+
 }
 
-.navbar-expand-md {
-    color: yellow;
+#navbarCollapse .nav-link {
 
+    color: white;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 20px;
 }
 
 .ber {
     color: #dd5035;
     font-style: italic;
-
+    font-size: 30px;
 }
 
 .matos {
     color: #3e59b1;
     font-style: italic;
+    font-size: 30px;
 }
 
-.sobre {
-    color: white;
-}
-
-.usados {
-    color: white;
-}
-
-.services {
-    color: white;
-}
-
-.contactos {
-    color: white;
-}

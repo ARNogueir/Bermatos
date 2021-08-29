@@ -1,10 +1,21 @@
-@include('components.head')
-<body>
-<header>
-    <!DOCTYPE html>
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta name="description" content="">
     <link href="{{ asset('css/contactos.css') }}" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>Contactos Bermatos</title>
+</head>
+<body>
 
-</header>
 <main>
     @include('components.nav')
     <div class="container">
@@ -12,47 +23,47 @@
             <div class="col-md-6">
                 <div class="well well-sm">
                     <!--<form class="" method="post">-->
-                        <fieldset>
-                            <legend class="text-xs-center header">Contacte-nos!</legend>
-                            <div class="form-group">
-                                <div class="col-md-10 offset-md-1">
-                                    <input id="fname" name="name" type="text" placeholder="Primeiro Nome"
-                                           class="form-control">
-                                </div>
+                    <fieldset>
+                        <legend class="text-xs-center header">Contacte-nos!</legend>
+                        <div class="form-group">
+                            <div class="col-md-10 offset-md-1">
+                                <input id="fname" name="name" type="text" placeholder="Primeiro Nome"
+                                       class="form-control">
                             </div>
-                            <div class="form-group">
-                                <div class="col-md-10 offset-md-1">
-                                    <input id="lname" name="name" type="text" placeholder="Sobrenome"
-                                           class="form-control">
-                                </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10 offset-md-1">
+                                <input id="lname" name="name" type="text" placeholder="Sobrenome"
+                                       class="form-control">
                             </div>
+                        </div>
 
-                            <div class="form-group">
-                                <div class="col-md-10 offset-md-1">
-                                    <input id="email" name="email" type="text" placeholder="Email" class="form-control">
-                                </div>
+                        <div class="form-group">
+                            <div class="col-md-10 offset-md-1">
+                                <input id="email" name="email" type="text" placeholder="Email" class="form-control">
                             </div>
+                        </div>
 
-                            <div class="form-group">
-                                <div class="col-md-10 offset-md-1">
-                                    <input id="phone" name="phone" type="text" placeholder="Telefone"
-                                           class="form-control">
-                                </div>
+                        <div class="form-group">
+                            <div class="col-md-10 offset-md-1">
+                                <input id="phone" name="phone" type="text" placeholder="Telefone"
+                                       class="form-control">
                             </div>
+                        </div>
 
-                            <div class="form-group">
-                                <div class="col-md-10 offset-md-1">
+                        <div class="form-group">
+                            <div class="col-md-10 offset-md-1">
                                     <textarea class="form-control" id="message" name="message"
                                               placeholder="A sua mensagem." rows="7"></textarea>
-                                </div>
                             </div>
+                        </div>
 
-                            <div class="form-group">
-                                <div class="col-md-12 text-xs-center">
-                                    <button type="submit" class="btn btn-primary btn-lg">Submeter</button>
-                                </div>
+                        <div class="form-group">
+                            <div class="col-md-12 text-xs-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Submeter</button>
                             </div>
-                        </fieldset>
+                        </div>
+                    </fieldset>
                     <!--</form>-->
                 </div>
             </div>
@@ -82,16 +93,16 @@
     <script type="text/javascript">
         jQuery(function ($) {
             function init_map1() {
-                var myLocation = new google.maps.LatLng(38.885516, -77.09327200000001);
-                var mapOptions = {
+                let myLocation = new google.maps.LatLng(38.885516, -77.09327200000001);
+                const mapOptions = {
                     center: myLocation,
                     zoom: 16
                 };
-                var marker = new google.maps.Marker({
+                let marker = new google.maps.Marker({
                     position: myLocation,
                     title: "Property Location"
                 });
-                var map = new google.maps.Map(document.getElementById("map1"),
+                let map = new google.maps.Map(document.getElementById("map1"),
                     mapOptions);
                 marker.setMap(map);
             }

@@ -22,9 +22,9 @@ Route::get('/contactos', function () {
 Route::get('/usados', function () {
     return view('/used');
 });
-Route::get('/empresa', function () {
-    return view('/company');
-});
 Route::get('/servicos', function () {
     return view('/servicos');
+});
+Route::get('/admin', function () {
+    return view('/admin');
 });

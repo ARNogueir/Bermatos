@@ -1,18 +1,23 @@
-h1 {
-    text-align: center;
+.bem {
+    text-align: right;
+    font-size: 35px;
+    margin-left: 300px;
 }
 
 body {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.ber {
+.berwelc {
     color: #dd5035;
     font-style: italic;
-
+    text-align: center;
+    font-size: 40px;
 }
 
-.matos {
+.matoswelc {
     color: #3e59b1;
     font-style: italic;
+    text-align: center;
+    font-size: 40px;
 }

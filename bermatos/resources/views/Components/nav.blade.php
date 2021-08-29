@@ -1,43 +1,26 @@
 <link href="{{ URL::asset('css/nav.css') }}" rel="stylesheet">
-<style>
-    .navbar {
-        padding: 1.3rem 1rem;
-        background: rgba(0, 0, 0, 0.2) no-repeat;
-        background-size: 100%;
-    }
-
-    @media only screen and (max-width: 600px) {
-        .navbar {
-            background-color: rgba(0, 0, 0, 0.2);
-            padding: 10px;
-            margin-left: -16px;
-            margin-right: -16px;
-        }
-    }</style>
 <nav class="navbar navbar-expand-md text-center navbar-dark fixed-top bg-dark">
-    <div class="container-fluid ">
-        <img id="img_logo" src="{{asset('images/logo_.jpg')}}" alt="logo">
-        <a class="navbar-brand"><span class="ber">BER</span><span class="matos">MATOS</span> - Comércio e reparação automóvel</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mb-2 mb-md-0 ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/empresa') }}"><span class="sobre">Sobre Nós</span></a>
-                    <a href="#" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/usados') }}"><span class="usados">Usados</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/servicos') }}"><span class="services">Serviços</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/contactos') }}"><span class="contactos">Contactos</span></a>
-                </li>
-            </ul>
-        </div>
+    <div class="container-fluid"><a href="{{ url('') }}">
+        <!--<img id="img_logo" src="{{asset('images/logo_.jpg')}}" alt="logo" href="{{ url('') }}">-->
+            <a class="navbar-brand" href="{{ url('') }}"><span class="ber">BER</span><span
+                    class="matos">MATOS</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mb-2 mb-md-0 mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('/usados') }}">Usados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('/servicos') }}"><span class="services">Serviços</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('/contactos') }}"><span class="contactos">Contactos</span></a>
+                    </li>
+                </ul>
+            </div>
+        </a>
     </div>
 </nav>
