@@ -16,11 +16,12 @@
 <main>
     @include('components.nav')
     @include('components.slider')
-
+    <h1 style="text-align: center">
+        <span class="bemwelc">BEM-VINDO <br>À<br></span> <span class="berwelc">BER</span><span
+            class="matoswelc">MATOS</span>
+    </h1>
     <div class="container p-4">
-        <section class="mb-4">
-            <span class="bem">BEM-VINDO À</span> <span class="berwelc">BER</span><span class="matoswelc">MATOS</span>
-        </section>
+
         <br>
         <hr>
         Situada num local de fácil acesso e servida pelas principais vias de comunicação do grande Porto, a nossa

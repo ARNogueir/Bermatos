@@ -1,7 +1,17 @@
-.bem {
-    text-align: right;
+@media only screen and (max-width: 600px) {
+
+    .bemwelc {
+        text-align: center;
+        font-size: 35px;
+    }
+
+
+}
+
+
+.bemwelc {
+    text-align: center;
     font-size: 35px;
-    margin-left: 300px;
 }
 
 body {

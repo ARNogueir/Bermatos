@@ -4,8 +4,8 @@
         <!--<img id="img_logo" src="{{asset('images/logo_.jpg')}}" alt="logo" href="{{ url('') }}">-->
             <a class="navbar-brand" href="{{ url('') }}"><span class="ber">BER</span><span
                     class="matos">MATOS</span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
