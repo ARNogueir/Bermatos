@@ -3,8 +3,8 @@
     .bemwelc {
         text-align: center;
         font-size: 35px;
+        color: #0000ff;
     }
-
 
 }
 
@@ -12,21 +12,36 @@
 .bemwelc {
     text-align: center;
     font-size: 35px;
+    color: #0000ff;
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #9E9E9E;
 }
 
 .berwelc {
-    color: #dd5035;
+    color: #CC0000;
     font-style: italic;
     text-align: center;
     font-size: 40px;
 }
 
-.matoswelc {
-    color: #3e59b1;
+.mawelc {
+    color: #0000ff;
+    font-style: italic;
+    text-align: center;
+    font-size: 40px;
+}
+
+.twelc {
+    color: #CC0000;
+    font-style: italic;
+    text-align: center;
+    font-size: 40px;
+}
+
+.oswelc {
+    color: #0000ff;
     font-style: italic;
     text-align: center;
     font-size: 40px;

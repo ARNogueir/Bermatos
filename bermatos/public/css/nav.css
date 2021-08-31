@@ -1,40 +1,72 @@
 @media only screen and (max-width: 600px) {
     .navbar {
-        margin-left: -16px;
-        margin-right: -16px;
         margin-bottom: 100px;
+        position: fixed;
 
     }
 
     .ber {
-        color: #dd5035;
-        font-style: italic;
-        font-size: 30px;
-    }
-    .matos {
-        color: yellow;
+        color: #CC0000;
         font-style: italic;
         font-size: 30px;
     }
 
+    .ma {
+        color: #00009c;
+        font-style: italic;
+        font-size: 30px;
+    }
+
+    .t {
+        color: #CC0000;
+        font-style: italic;
+        font-size: 30px;
+    }
+
+    .os {
+        color: #00009c;
+        font-style: italic;
+        font-size: 30px;
+    }
+
+}
+
+.navbar {
+    position: fixed;
+    margin-bottom: 100px;
+    background-color: #121417;
 }
 
 #navbarCollapse .nav-link {
 
-    color: white;
+
+    color: #0000ff;
     margin-top: 5px;
     margin-right: 20px;
+    margin-left: 20px;
     font-size: 20px;
 }
 
 .ber {
-    color: #dd5035;
+    color: #CC0000;
     font-style: italic;
     font-size: 30px;
 }
 
-.matos {
-    color: #3e59b1;
+.ma {
+    color: #0000ff;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.t {
+    color: #CC0000;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.os {
+    color: #0000ff;
     font-style: italic;
     font-size: 30px;
 }

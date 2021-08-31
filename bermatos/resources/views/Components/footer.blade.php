@@ -13,12 +13,15 @@
 
 </head>
 <footer class="footer">
-
-    <!-- Copyright -->
-    <div class="text-center p-3 bg-dark ">
-
-        <span class="ber">BER</span><span class="matos">MATOS</span>
-        <a class="text-white" href="https://arnogueira.com/"> © 2021 | Powered by ARNogueira</a>
+    <div class="text-center p-3">
+        <span class="berwelc">BER</span><span
+            class="mawelc">MA</span><span
+            class="twelc">T</span><span
+            class="oswelc">OS</span> <a class="text-white"
+                                        href="https://arnogueira.com/"
+                                        style="background-color: #282829;"> ©
+            2021 | Powered by
+            ARNogueira</a>
     </div>
-
 </footer>
+

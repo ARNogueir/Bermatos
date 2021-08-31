@@ -18,7 +18,9 @@
     @include('components.slider')
     <h1 style="text-align: center">
         <span class="bemwelc">BEM-VINDO <br>À<br></span> <span class="berwelc">BER</span><span
-            class="matoswelc">MATOS</span>
+            class="mawelc">MA</span><span
+            class="twelc">T</span><span
+            class="oswelc">OS</span>
     </h1>
     <div class="container p-4">
 
