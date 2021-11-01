@@ -2,72 +2,68 @@
     .navbar {
         margin-bottom: 100px;
         position: fixed;
-
     }
 
-    .ber {
+    .berNav {
         color: #CC0000;
         font-style: italic;
         font-size: 30px;
     }
 
-    .ma {
+    .maNav {
         color: #00009c;
         font-style: italic;
         font-size: 30px;
     }
 
-    .t {
+    .tNav {
         color: #CC0000;
         font-style: italic;
         font-size: 30px;
     }
 
-    .os {
+    .osNav {
         color: #00009c;
         font-style: italic;
         font-size: 30px;
     }
-
 }
 
 .navbar {
     position: fixed;
     margin-bottom: 100px;
-    background-color: #121417;
+    background-color: #293038 ;
 }
 
 #navbarCollapse .nav-link {
-
-
-    color: #0000ff;
+    color: #00009c;
     margin-top: 5px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
     font-size: 20px;
+    font-style: italic;
 }
 
-.ber {
+.berNav {
     color: #CC0000;
     font-style: italic;
     font-size: 30px;
 }
 
-.ma {
-    color: #0000ff;
+.maNav {
+    color: #00009c;
     font-style: italic;
     font-size: 30px;
 }
 
-.t {
+.tNav {
     color: #CC0000;
     font-style: italic;
     font-size: 30px;
 }
 
-.os {
-    color: #0000ff;
+.osNav {
+    color: #00009c;
     font-style: italic;
     font-size: 30px;
 }
-

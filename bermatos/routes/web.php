@@ -20,7 +20,7 @@ Route::get('/contactos', function () {
     return view('/contactos');
 });
 Route::get('/usados', function () {
-    return view('/used');
+    return view('/usados');
 });
 Route::get('/servicos', function () {
     return view('/servicos');
@@ -28,3 +28,5 @@ Route::get('/servicos', function () {
 Route::get('/admin', function () {
     return view('/admin');
 });
+
+Route::get('gmaps', 'HomeController@gmaps');

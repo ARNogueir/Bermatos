@@ -132,5 +132,6 @@
     <orderEntry type="library" name="jquery-1.11.1" level="application" />
     <orderEntry type="library" name="jquery.mobile-1.4.2" level="application" />
     <orderEntry type="library" name="jquery-1.9.1" level="application" />
+    <orderEntry type="library" name="popper.js" level="application" />
   </component>
 </module>

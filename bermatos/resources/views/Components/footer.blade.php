@@ -14,12 +14,11 @@
 </head>
 <footer class="footer">
     <div class="text-center p-3">
-        <span class="berwelc">BER</span><span
-            class="mawelc">MA</span><span
-            class="twelc">T</span><span
-            class="oswelc">OS</span> <a class="text-white"
-                                        href="https://arnogueira.com/"
-                                        style="background-color: #282829;"> ©
+        <span class="berFoo">BER</span><span
+            class="maFoo">MA</span><span
+            class="tFoo">T</span><span
+            class="osFoo">OS</span> <a class="text-white"
+                                        href="https://arnogueira.com/"> ©
             2021 | Powered by
             ARNogueira</a>
     </div>

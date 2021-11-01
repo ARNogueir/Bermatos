@@ -15,9 +15,8 @@
     <title>Contactos Bermatos</title>
 </head>
 <body>
-
+@include('components.nav')
 <main>
-    @include('components.nav')
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -50,14 +49,12 @@
                                        class="form-control">
                             </div>
                         </div>
-
                         <div class="form-group">
                             <div class="col-md-10 offset-md-1">
                                     <textarea class="form-control" id="message" name="message"
                                               placeholder="A sua mensagem." rows="7"></textarea>
                             </div>
                         </div>
-
                         <div class="form-group">
                             <div class="col-md-12 text-xs-center">
                                 <button type="submit" class="btn btn-primary btn-lg">Submeter</button>
@@ -111,7 +108,57 @@
         });
     </script>
 
-    @include('components.footer')
+    <div id="mymap"></div>
 
+
+    <script type="text/javascript">
+
+
+        var locations = <?php print_r(json_encode($locations)) ?>;
+
+
+        class GMaps {
+            constructor(param) {
+                
+            }
+
+        }
+
+        var mymap = new GMaps({
+
+            el: '#mymap',
+
+            lat: 21.170240,
+
+            lng: 72.831061,
+
+            zoom: 6
+
+        });
+
+
+        $.each(locations, function (index, value) {
+
+            mymap.addMarker({
+
+                lat: value.lat,
+
+                lng: value.lng,
+
+                title: value.city,
+
+                click: function (e) {
+
+                    alert('This is ' + value.city + ', gujarat from India.');
+
+                }
+
+            });
+
+        });
+
+
+    </script>
 </main>
+@include('components.footer')
 </body>

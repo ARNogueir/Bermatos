@@ -1,3 +1,40 @@
-.footer {
-    background-color: #121417;
+@media only screen and (max-width: 600px) {
+
+
 }
+
+
+.footer {
+    background-color: #293038;
+margin-top: 50px}
+
+
+.berFoo {
+    color: #CC0000;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.maFoo {
+    color: #00009c;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.tFoo {
+    color: #CC0000;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.osFoo {
+    color: #00009c;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.text-white {
+    font-size: 15px;
+color: yellow;
+}
+
